@@ -1,0 +1,30 @@
+NullReferenceException: Object reference not set to an instance of an object
+MoreSlugcats.BlinkingFlower.DrawSprites (RoomCamera+SpriteLeaser sLeaser, RoomCamera rCam, System.Single timeStacker, UnityEngine.Vector2 camPos) (at <a117a2e773414632b51933d2ae7f2aca>:0)
+(wrapper dynamic-method) RoomCamera+SpriteLeaser.DMD<RoomCamera+SpriteLeaser::Update>(RoomCamera/SpriteLeaser,single,RoomCamera,UnityEngine.Vector2)
+(wrapper dynamic-method) RoomCamera.DMD<RoomCamera::DrawUpdate>(RoomCamera,single,single)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<RoomCamera::DrawUpdate>?-842532864(RoomCamera,single,single)
+RegionKit.Modules.ConcealedGarden.CGShelterRain.RoomCamera_DrawUpdate (On.RoomCamera+orig_DrawUpdate orig, RoomCamera self, System.Single timeStacker, System.Single timeSpeed) (at <7c4626075ac84df59216d984e0e99070>:0)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<RoomCamera::DrawUpdate>?-163959808(RoomCamera,single,single)
+RainWorldGame.GrafUpdate (System.Single timeStacker) (at <a117a2e773414632b51933d2ae7f2aca>:0)
+MainLoopProcess.RawUpdate (System.Single dt) (at <a117a2e773414632b51933d2ae7f2aca>:0)
+(wrapper dynamic-method) RainWorldGame.DMD<RainWorldGame::RawUpdate>(RainWorldGame,single)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<RainWorldGame::RawUpdate>?-2106503680(RainWorldGame,single)
+Pom.Pom.RainWorldGameRawUpdate (On.RainWorldGame+orig_RawUpdate orig, RainWorldGame self, System.Single dt) (at C:/Users/ericer/Documents/Rain World Documents/Code Modding/Pom/Pom/Pom.InputHooks.cs:41)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<RainWorldGame::RawUpdate>?1906798080(RainWorldGame,single)
+(wrapper dynamic-method) ProcessManager.DMD<ProcessManager::Update>(ProcessManager,single)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<ProcessManager::Update>?176955392(ProcessManager,single)
+RegionKit.Modules.AnimatedDecals.VideoManager.ProcessManager_Update (On.ProcessManager+orig_Update orig, ProcessManager self, System.Single deltaTime) (at <7c4626075ac84df59216d984e0e99070>:0)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<ProcessManager::Update>?2047147520(ProcessManager,single)
+(wrapper dynamic-method) RainWorld.DMD<RainWorld::Update>(RainWorld)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<RainWorld::Update>?905960448(RainWorld)
+ImprovedInput.Plugin.RainWorld_Update (On.RainWorld+orig_Update orig, RainWorld self) (at <b1532b580d2f4aa5a77966738074cad8>:0)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<RainWorld::Update>?52215808(RainWorld)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<RainWorld::Update>?-1628531200(RainWorld)
+Revivify.Plugin.ErrorCatch (On.RainWorld+orig_Update orig, RainWorld self) (at <84d6e4b45b0846db885a4a7bbcdd965b>:0)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<RainWorld::Update>?-377668096(RainWorld)
+
+<RI> Failed to get input data:
+The handle is invalid.
+
+
+InvalidProgramException: Invalid IL code in Room/Tile:get_Terrain (): IL_001c: stfld 0x04000a09
